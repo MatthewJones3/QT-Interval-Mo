@@ -1,0 +1,39 @@
+/*.header {
+  background-color: lightblue;
+  padding: 10px 40px;
+  text-align: center;
+  width: 100%;
+}
+.header h1 {
+  margin: 0;
+  font-size: 36px;
+  color: #333;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 1.2;
+}*/
+
+.header {
+  /*background-color: lightcyan;*/
+  background-color: white;
+  padding: 10px 40px;
+  text-align: center;
+  width: 100%;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 36px;
+  color: #333;
+  /*font-family: "Roboto", sans-serif;*/
+  font-family: "Caprasimo";
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 24px;
+    line-height: 1.1;
+  }
+}

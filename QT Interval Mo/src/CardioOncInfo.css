@@ -1,0 +1,179 @@
+/*.cardio-onc-info {
+  width: 25%;
+  padding: 20px;
+  background-color: white;
+  box-sizing: border-box;
+  height: 80vh;
+  overflow-y: auto;
+  flex-shrink: 0;
+  border-radius: 12px;
+  margin-right: 20px;
+
+  position: relative;
+}
+
+.cardio-onc-info h2 {
+  margin: 0 0 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.2;
+  color: #333;
+}
+
+.cardio-onc-info p {
+  margin: 0 0 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
+.info-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.info-links li {
+  margin: 10px 0;
+}
+
+.info-links a {
+  color: #646cff;
+  text-decoration: none;
+}
+
+.info-links a:hover {
+  color: #535bf2;
+}
+
+.cardio-onc-info img {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 0 0 12px 12px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .cardio-onc-info {
+    width: 100%;
+    height: auto;
+  }
+
+  .cardio-onc-info h2 {
+    font-size: 12px;
+  }
+
+  .cardio-onc-info p {
+    font-size: 12px;
+  }
+
+  .info-links li {
+    margin: 6.6px 0;
+  }
+
+  .info-links a {
+    font-size: 12px;
+  }
+
+  .cardio-onc-info img {
+    width: 100%;
+    border-radius: 0 0 12px 12px;
+  }
+}*/
+
+.cardio-onc-info {
+  width: 25%;
+  padding: 20px;
+  background-color: white;
+  box-sizing: border-box;
+  height: 80vh;
+  overflow-y: auto;
+  flex-shrink: 0;
+  border-radius: 12px;
+  margin-right: 20px;
+  position: relative;
+}
+
+.cardio-onc-info h2 {
+  margin: 0 0 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.2;
+  color: #333;
+}
+
+.cardio-onc-info p {
+  margin: 0 0 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
+.info-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.info-links li {
+  margin: 10px 0;
+}
+
+.info-links a {
+  color: #646cff;
+  text-decoration: none;
+}
+
+.info-links a:hover {
+  color: #535bf2;
+}
+
+.cardio-onc-info img {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 0 0 12px 12px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .cardio-onc-info {
+    width: 100%;
+    height: auto;
+  }
+
+  .cardio-onc-info h2 {
+    font-size: 12px;
+  }
+
+  .cardio-onc-info p {
+    font-size: 12px;
+  }
+
+  .info-links li {
+    margin: 6.6px 0;
+  }
+
+  .info-links a {
+    font-size: 12px;
+  }
+
+  .cardio-onc-info img {
+    position: static;
+    width: 100%;
+    max-width: 200px;
+    border-radius: 0 0 12px 12px;
+    margin-top: 10px;
+    left: 0;
+    transform: none;
+  }
+}
